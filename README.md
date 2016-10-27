@@ -1,5 +1,4 @@
 # General Information for EasyWeb system
-
 ### EasyWeb MicroServices
 
 #### EasyWeb API: http://api.easywebhub.com
@@ -31,3 +30,7 @@ website thực tế luôn.
 > Production servers cần có SSD (HDD) lớn và mở rộng dễ dàng. Tương ứng với Git servers
 
 - Cập nhật thông tin
+
+### Sơ đồ chung
+
+![](https://github.com/easywebhub/easyapp/blob/semantic-ui/documents/EasyWeb%20Components.png?raw=true)
