@@ -13,6 +13,9 @@
    centos 7: 2GB: 104.140.15.38 
 
 ### Push to Deploy
+> Git và Deployed VPS nên nằm riêng ở 2 VPS khác nhau, nhưng cùng chung 1 Datacenter. 
+Hiện tại Gogs Git nằm ở Vurlt Singapore, cần thống nhất PushToDeploy VPS luôn.
+
 #### Gogs: git.easywebhub.com 
 - VPS: Singapore: Centos 7 x64: 1GB RAM: 45.76.150.222 
 
