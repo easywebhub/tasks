@@ -2,7 +2,9 @@
 
 ### EasyWeb MicroServices
 
-#### Web API: http://api.easywebhub.com
+#### EasyWeb API: http://api.easywebhub.com
+> Cung cấp microservices API cho EasyBuilder and AdminCenter
+
 - VPS: 104.140.14.140   Win 2012: 2GB RAM US location (fair)
 - Couchbase VPS:  104.168.94.152 Ubuntu 14: 8GB RAM US (fair)
 
@@ -12,12 +14,20 @@
 - Test VPS: 
    centos 7: 2GB: 104.140.15.38 
 
-### Push to Deploy
-> Git và Deployed VPS nên nằm riêng ở 2 VPS khác nhau, nhưng cùng chung 1 Datacenter. 
+### EasyWeb Website Servers
+
+> Git và Production VPS nên nằm riêng ở 2 VPS khác nhau, nhưng cùng chung 1 Datacenter. 
 Hiện tại Gogs Git nằm ở Vurlt Singapore, cần thống nhất PushToDeploy VPS luôn.
 
-#### Gogs: git.easywebhub.com 
+#### Git Servers: git.easywebhub.com (Gogs git)
+> Git servers cần có SSD (HDD) lớn và mở rộng dễ dàng. CPU ko cần nhiều
+
 - VPS: Singapore: Centos 7 x64: 1GB RAM: 45.76.150.222 
 
-#### Push to Deploy Servers
+#### Production Servers
+> Production dùng để pull source từ Git, sau đó push lên `github` hoặc sử dụng như server triển khai
+website thực tế luôn.
+
+> Production servers cần có SSD (HDD) lớn và mở rộng dễ dàng. Tương ứng với Git servers
+
 - Cập nhật thông tin
