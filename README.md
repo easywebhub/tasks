@@ -5,7 +5,7 @@
 > Cung cấp microservices API cho EasyBuilder and AdminCenter
 
 - ~~VPS: 104.140.14.140   Win 2012: 2GB RAM US location (fair)~~
-- - VPS: 107.175.56.236   win 2012 4GB RAM: 
+- VPS: 107.175.56.236   win 2012 4GB RAM  US location  
 - Couchbase VPS:  104.168.94.152 Ubuntu 14: 8GB RAM US (fair)
 
 ### EasyWeb AdminCenter
