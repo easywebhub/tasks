@@ -16,37 +16,4 @@
 
 4. Báo cáo Công Việc sẽ cập nhật từ `cấp dưới`, đánh giá, tổng hợp và thông báo lên `cấp trên`.
 
-# General Information for EasyWeb system
-### EasyWeb MicroServices
 
-#### EasyWeb API: `api.easywebhub.com`
-> Cung cấp microservices API cho EasyBuilder and AdminCenter
-
-- VPS: 107.175.56.236   win 2012 4GB RAM  US location  
-- Couchbase VPS:  104.168.94.152 Ubuntu 14: 8GB RAM US (fair)
-
-### EasyWeb AdminCenter `easyadmincp.com`
-- US location 107.175.56.236 win 2012 4GB RAM
-- same with `api.easywebhub.com`
-
-### EasyWeb Website Servers
-
-> Git và Production VPS nên nằm riêng ở 2 VPS khác nhau, nhưng cùng chung 1 Datacenter. 
-Hiện tại Gogs Git nằm ở Vurlt Singapore, cần thống nhất PushToDeploy VPS luôn.
-
-#### Git Servers:  (Gogs git) `source.easywebhub.com`
-> Git servers cần có SSD (HDD) lớn và mở rộng dễ dàng. CPU ko cần nhiều
-
-- Paris: Gogs Ubuntu 14: ARM 2G RAM, 50SSD, 212.47.253.180
-
-#### Production Servers
-> Production dùng để pull source từ Git, sau đó push lên `github` hoặc sử dụng như server triển khai
-website thực tế luôn.
-
-> Production servers cần có SSD (HDD) lớn và mở rộng dễ dàng. Tương ứng với Git servers
-
-- Cập nhật thông tin
-
-### Sơ đồ chung
-
-![](https://github.com/easywebhub/easyapp/blob/semantic-ui/documents/EasyWeb%20Components.png?raw=true)
