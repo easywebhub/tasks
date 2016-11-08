@@ -17,3 +17,6 @@
 4. Báo cáo Công Việc sẽ cập nhật từ `cấp dưới`, đánh giá, tổng hợp và thông báo lên `cấp trên`.
 
 
+### Tài liệu giới thiệu tổng thể
+
+- [EasyWeb](https://github.com/easywebhub/tasks/wiki)
