@@ -1,20 +1,23 @@
 
 ### Nguyên tắc chung trong quản lý công việc
 
-1. Công việc phải có mô tả, có trạng thái , và phải có liên kết với Công việc khác
+1. Công việc phải có mô tả, có trạng thái , và có liên kết với Công việc khác
  - Trạng thái được mô tả bởi `Label`
- - Liên kết với công việc khác phải có `Issue Url` của công việc đó
+ - Liên kết nằm trên cùng của phần mô tả và link tới `Issue` công việc
 
-2. Trao đổi được thực hiện qua `Comment` kết hợp với `Code Commit`, Issues đính kèm.
+2. Trao đổi được thực hiện qua `Comment` 
+ - kết hợp với link `Code Commit`
+ - kèm các các `Issue` liên quan
 
 3. Trách nhiệm tạo Công việc cho mình
- - từ yêu cầu do cấp trên **trực tiếp** đưa ra (hoặc đã được phân công)
+ - từ yêu cầu do thành viên khác đưa ra
  - tự đề ra để cải thiện công việc.
- - Không chỉ áp dụng cho cá nhân, mà cho nhóm hoặc tổ chức lớn hơn
-
-2. Yêu cầu được chia nhỏ và giao từ `cấp trên` xuống `cấp dưới` . 
-
+ 
+2. Yêu cầu được chia nhỏ và giao cho từng cá nhân. 
+ - Công việc nhỏ nhất phải thực hiện bởi 1 cá nhân và không kéo dài quá 8h
+  
 4. Báo cáo Công Việc sẽ cập nhật từ `cấp dưới`, đánh giá, tổng hợp và thông báo lên `cấp trên`.
+ - format báo cáo:   Trạng Thai - Tiêu đề công việc - Link chi tiết - Ghi chú
 
 
 ### Tài liệu giới thiệu tổng thể
