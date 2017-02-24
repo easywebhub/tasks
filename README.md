@@ -10,8 +10,8 @@
  - Trạng thái được mô tả bởi `Label`
  - Liên kết nằm trên cùng của phần mô tả và link tới `Issue` công việc tương ứng
  
-2. Trao đổi phải dựa trên Công Việc cụ thể và cần lưu trữ lại
- - `Comment` trong `Issue` là cách trao đổi và lưu trữ hiệu quả
+2. Trao đổi phải dựa trên Công Việc, hạn chế trao đổi trực tiếp và cần lưu trữ lâu dài
+ - `Comment` trong `Issue` là cách trao đổi gián tiếp và lưu trữ hiệu quả
  - Đính kèm link `Code Commit` là cách hữu ích để biết rõ vấn đề đang trao đổi
  - kèm các các `Issue` liên quan để liên kết thông tin
  
