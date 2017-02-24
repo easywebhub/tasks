@@ -1,17 +1,19 @@
 
 ### Nguyên tắc chung của EasyWeb team-work
 
-1. Công việc phải có mô tả, có trạng thái , và có liên kết với Công việc khác
- - Trạng thái được mô tả bởi `Label`
- - Liên kết nằm trên cùng của phần mô tả và link tới `Issue` công việc
-
-2. Trao đổi được thực hiện qua `Comment` 
- - kết hợp với link `Code Commit`
- - kèm các các `Issue` liên quan
-
-3. Trách nhiệm tạo Công việc cho mình
+3. Trách nhiệm tạo Công Việc cho mình
  - từ yêu cầu do thành viên khác đưa ra
  - tự đề ra để cải thiện công việc.
+ 
+1. Công Việc phải có mô tả, có trạng thái , và có liên kết với Công việc khác
+ - Dùng Issues để thể hiện Công Việc
+ - Trạng thái được mô tả bởi `Label`
+ - Liên kết nằm trên cùng của phần mô tả và link tới `Issue` công việc tương ứng
+ 
+2. Trao đổi phải dựa trên Công Việc cụ thể và cần lưu trữ lại
+ - `Comment` trong `Issue` là cách trao đổi và lưu trữ hiệu quả
+ - Đính kèm link `Code Commit` là cách hữu ích để biết rõ vấn đề đang trao đổi
+ - kèm các các `Issue` liên quan để liên kết thông tin
  
 2. Yêu cầu được chia nhỏ và giao cho từng cá nhân. 
  - Issue chi tiết phải thực hiện bởi 1 cá nhân
