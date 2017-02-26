@@ -15,11 +15,11 @@
  - Đính kèm link `Code Commit` là cách hữu ích để biết rõ vấn đề đang trao đổi
  - kèm các các `Issue` liên quan để liên kết thông tin
  
-2. Yêu cầu được chia nhỏ và giao cho từng cá nhân. 
+2. Yêu cầu được phân tích, chia nhỏ và giao cho từng cá nhân. 
  - Issue chi tiết phải thực hiện bởi 1 cá nhân
  - Issue chi tiết không kéo dài quá 8h
   
-4. Trạng thái công Việc sẽ cập nhật từ Issue chi tiết, đánh giá, tổng hợp Issue lớn hơn.
+4. Trạng thái công Việc sẽ tổng hợp từ Công Việc chi tiết và đánh giá, cập nhật, thông báo lên trên.
  - format báo cáo:   Trạng Thai - Tiêu đề công việc - Link chi tiết - Ghi chú
 
 ### Quy định hoạt động team-work
