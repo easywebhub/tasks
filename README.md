@@ -1,5 +1,6 @@
 
 ### Nguyên tắc làm việc của EasyWeb 
+> Giải thích chi tiết https://github.com/easywebhub/tasks/wiki/Nguyên-tắc-làm-việc-của-EasyWeb
 
 3. Trách nhiệm tạo Công Việc cho mình
  - từ yêu cầu do thành viên khác đưa ra
