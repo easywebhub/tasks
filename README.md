@@ -2,25 +2,25 @@
 ### Nguyên tắc làm việc của EasyWeb 
 > Giải thích chi tiết https://github.com/easywebhub/tasks/wiki/Nguyên-tắc-làm-việc-của-EasyWeb
 
-1. Trách nhiệm tạo Công Việc cho mình
+1. **Trách nhiệm tạo Công Việc cho mình**
   - từ yêu cầu do thành viên khác đưa ra
   - tự đề ra để cải thiện công việc.
  
-2. Công Việc phải có mô tả, có trạng thái , và có liên kết với Công việc khác
+2. **Công Việc phải có mô tả, có trạng thái , và có liên kết với Công việc khác**
   - Dùng Issues để thể hiện Công Việc
   - Trạng thái được mô tả bởi `Label`
   - Liên kết nằm trên cùng của phần mô tả và link tới `Issue` công việc tương ứng
  
-3. Trao đổi phải dựa trên Công Việc, hạn chế trao đổi trực tiếp và cần lưu trữ lâu dài
+3. **Trao đổi phải dựa trên Công Việc, hạn chế trao đổi trực tiếp và cần lưu trữ lâu dài**
  - `Comment` trong `Issue` là cách trao đổi gián tiếp và lưu trữ hiệu quả
  - Đính kèm link `Code Commit` là cách hữu ích để biết rõ vấn đề đang trao đổi
  - kèm các các `Issue` liên quan để liên kết thông tin
  
-4. Yêu cầu được phân tích, chia nhỏ và giao cho từng cá nhân. 
+4. **Yêu cầu được phân tích, chia nhỏ và giao cho từng cá nhân.**
  - Issue chi tiết phải thực hiện bởi 1 cá nhân
  - Issue chi tiết không kéo dài quá 8h
   
-5. Trạng thái công Việc sẽ tổng hợp từ Công Việc chi tiết và đánh giá, cập nhật, thông báo lên trên.
+5. **Trạng thái công Việc sẽ tổng hợp từ Công Việc chi tiết và đánh giá, cập nhật, thông báo lên trên.**
  - format báo cáo:   Trạng Thai - Tiêu đề công việc - Link chi tiết - Ghi chú
 
 ### Quy định hoạt động team-work
