@@ -6,7 +6,7 @@
  
 2. **Công Việc phải có mô tả, có trạng thái , và có liên kết với Công việc khác**
  
-3. **Trao đổi phải dựa trên Công Việc, hạn chế trao đổi trực tiếp và cần lưu trữ lâu dài**
+3. **Trao đổi phải dựa trên Công Việc, hạn chế trao đổi trực tiếp (không hiệu quả) và cần lưu trữ lâu dài**
  
 4. **Yêu cầu Công Việc được chia từ trên xuống**
  

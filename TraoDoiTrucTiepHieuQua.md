@@ -1,5 +1,5 @@
 ### Trao đổi trực tiếp
-> trong nguyên tắc 3 của team [chi tiết](https://github.com/easywebhub/tasks), có phần "Hạn chế trao đổi trực tiếp (không hiệu quả)" 
+> trong nguyên tắc 3 của team [chi tiết](https://github.com/easywebhub/tasks), có phần "Hạn chế trao đổi trực tiếp không hiệu quả" 
 
 > Để trao đổi trực tiếp hiệu quả đòi hỏi 2 (hay nhiều) đối tượng tham gia trao đổi phải sẵn sàng về thời gian, địa điểm, nhất là có sự chuẩn bị về nội dung sẽ trao đổi.
 
