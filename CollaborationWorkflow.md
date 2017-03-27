@@ -31,3 +31,4 @@ Workflow chi tiết hóa quá trình tương tác giữa hai đối tượng: đ
 
 > Sử dụng `Comment` để lưu nội dung trao đổi  và `@mention` để thông báo cho người liên quan
 
+[collaboration](https://github.com/easywebhub/tasks/blob/master/EasyWeb-TeamWork.png)
