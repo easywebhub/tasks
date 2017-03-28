@@ -1,8 +1,5 @@
 
-### I. Nguyên tắc làm việc của EasyWeb 
-> Chi tiết(https://github.com/easywebhub/tasks/wiki/Nguyên-tắc-làm-việc-của-EasyWeb)
-
-> 5 nguyên tắc cơ bản cần nhớ
+### I. 5 Nguyên tắc cơ bản [Chi tiết](https://github.com/easywebhub/tasks/wiki/Nguyên-tắc-làm-việc-của-EasyWeb)
 
 1. **Trách nhiệm tạo Công Việc cho mình**
  
@@ -14,10 +11,7 @@
  
 5. **Trạng thái Công Việc được cập nhật từ dưới lên**
 
-### II. Cộng tác trong môi trường team-work
-> Chi tiết https://github.com/easywebhub/tasks/blob/master/EasyWeb-Collaboration.md
-
-> các nội dung cần ghi nhớ
+### II. Cộng tác trong môi trường team-work [Chi tiết](https://github.com/easywebhub/tasks/blob/master/EasyWeb-Collaboration.md)
 
 #### 1. Vai trò đưa yêu cầu
 
@@ -44,7 +38,7 @@
    - trao đổi gián tiếp rất mất thời gian hoặc không thống nhất được
    - nội dung chưa rõ ràng, cần trao đổi, thống nhất để thực hiện
    - tài liệu liên quan, tham khảo nếu có
-   - cuộc họp càng quan trọng, nội dung cần chuẩn bị kĩ lưỡng 
+   - **cuộc họp (trao đổi) càng quan trọng, càng chuẩn bị kĩ lưỡng**
 
 2. Chọn thời điểm mà các đối tượng sẵn sàng 
    - từ nội dung cần trao đổi lựa chọn các đối tượng cần thiết, tránh mời các đối tượng ít liên quan.
@@ -55,7 +49,7 @@
 3. kết quả trao đổi
    - nội dung thống nhất 
    - công việc tiếp theo
-   - **lưu trữ lại bằng văn bản (email + github) trước khi kết thúc buổi họp**
+   - **lưu trữ lại bằng văn bản (gitlab, github, email) trước khi kết thúc buổi họp**
 
 4. Nếu ở bước 2, các đối tượng đều rõ ràng các nội dung trao đổi, thì có thể chuyển sang trao đổi gián tiếp
   
