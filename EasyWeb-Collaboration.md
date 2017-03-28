@@ -1,6 +1,6 @@
 ## Việc cộng tác trong môi trường team-work
 
-### Vai trò, Trách nhiệm của thành viên
+### I. Vai trò, Trách nhiệm của thành viên
 
 Giá trị trong công việc của một thành viên (hoặc tập thể) được thể hiện qua việc hoàn thành công việc được giao đúng yêu cầu và thời gian. 
 Mỗi cá nhân song song giữ hai vai trò khác biệt trong môi trường team work. Đó là vai trò thực hiện công việc được giao và trong đó có một phần là đưa yêu cầu, nhờ người khác phối hợp thực hiện.
@@ -33,12 +33,13 @@ Do đó, khi thực hiện chi tiết, có nhiều yêu cầu nhờ người kh�
 1. hoàn thành đúng yêu cầu trong timeline thống nhất 
    - bước 5 trong workflow 
 
-### Nội dung cần chú ý
-#### 1. Mô tả yêu cầu 
+### II. Nội dung cần chú ý
 
-Với vai trò đưa yêu cầu, đây là trách nhiệm quan trọng nhất, ảnh hưởng rất lớn tới việc thực hiện sau này. 
+#### 1. Mô tả yêu cầu
 
-Để thực hiện tốt việc mô tả yêu cầu, chúng ta cần hiểu rõ công việc lớn hơn đang đảm nhận, trong đó bao gồm phần cần nhờ người khác hỗ trợ. Chỉ có hiểu rõ, mới phân chia rõ ràng, cũng như liên kết các phần nhỏ lại, bảo đảm các phần này được thực hiện thì công việc lớn cũng sẽ hoàn thành. 
+> đây là phần việc quan trọng nhất của người đưa yêu cầu, ảnh hưởng rất lớn tới việc thực hiện sau này. 
+
+Để thực hiện tốt, chúng ta cần hiểu rõ công việc lớn hơn đang đảm nhận, trong đó bao gồm phần cần nhờ người khác hỗ trợ. Chỉ có hiểu rõ, mới phân chia rõ ràng, cũng như liên kết các phần nhỏ lại, bảo đảm các phần này được thực hiện thì công việc lớn cũng sẽ hoàn thành. 
 
 Đưa ra yêu cầu rõ ràng và kiểm tra để bảo đảm yêu cầu được thực hiện là một phần nhiệm vụ trong việc hoàn thành công việc lớn hơn đang đảm nhận.
 
