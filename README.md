@@ -2,6 +2,8 @@
 ### I. Nguyên tắc làm việc của EasyWeb 
 > Chi tiết(https://github.com/easywebhub/tasks/wiki/Nguyên-tắc-làm-việc-của-EasyWeb)
 
+> 5 nguyên tắc cơ bản cần nhớ
+
 1. **Trách nhiệm tạo Công Việc cho mình**
  
 2. **Công Việc phải có mô tả, có trạng thái , và có liên kết với Công việc khác**
@@ -34,7 +36,7 @@
 1. hoàn thành đúng yêu cầu trong timeline thống nhất 
 
 #### 3. Workflow cộng tác
-- tham khảo sơ đồ ở [đây](https://github.com/easywebhub/tasks/blob/master/EasyWeb-TeamWork.png)
+- tham khảo sơ đồ ở [Collaboration Workflow](https://github.com/easywebhub/tasks/blob/master/EasyWeb-TeamWork.png)
 
 ### III. Nguyên tắc để trao đổi trực tiếp (cuộc họp) đạt hiệu quả
 
