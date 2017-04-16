@@ -30,21 +30,21 @@
    - [ ] cho phép sử dụng github Pages hoặc dùng VPS riêng để hosting 
    - [ ] sử dụng cloudflare tự động add CNAME và thiết lập `easywebhub.github.io` 
  
+- tạo mới và đồng bộ phần `source` và `gh-pages` từ `source.easywebhub.com`
+
 ### Nhập liệu cho website
-- [ ] Lựa chọn giữa sử dụng `{website-domain}/admincp` hoặc tạo domain chung `easywebhub.com/admincp` 
-- Việc build websites online tốn nhiều tài nguyên hệ thống, cần có cơ chế mở rộng tài nguyên sau này
+- [ ] Lựa chọn giữa sử dụng `xxx.easywebhub.com/admincp` theo từng websites hoặc tạo domain chung `easywebhub.com/admincp` 
+
+- luôn luôn đồng bộ với `source.easywebhub.com` bao gồm source và cả build (gh-pages) 
 
 ### Cho phép dùng domain riêng
 
 - [ ] tài liệu hướng dẫn `xxx.easywebhub.com`  => `user-domain.xxx`
   
-- [ ] CMS Url cũng đổi theo:, ví dụ `user-domain.xxx/admincp` 
+- [ ] CMS Url cũng đổi theo domain riêng này, ví dụ `user-domain.xxx/admincp` 
+
+- [ ] việc thay đổi phải cập nhật vào thông tin websites quản lý bởi EasyWeb
 
 
-
-
-> Thực hiện thủ công các bước trên
-
-> Tự động hóa các quy trình trên để tối ưu nhân sự hỗ trợ
 
 
