@@ -8,6 +8,8 @@
 
 3. Nhập liệu cho từng trang đang có 
 
+4. Public website trên easyweb sub-domain
+
 4. Cho phép đổi sang domain riêng 
 
 ## Yêu Cầu thực hiện hệ thống  
