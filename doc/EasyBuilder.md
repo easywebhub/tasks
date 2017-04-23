@@ -5,9 +5,9 @@
 ### Authentication 
 - [ ] `improve` registry with EasyWeb account
   - [ ] username, check for existing, add sub-fix `number` to make it unique 
-  - [ ] email, check for existing and reject 
+  - [ ] email, check for existing and reject if happens
   - [ ] password
-  - [ ] registry with facebook, github, google+
+  - [ ] registry with facebook, github, google+ account but must follow unique username rules
 
 - [ ] `test` login with username & password 
 
