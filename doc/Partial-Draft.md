@@ -5,9 +5,10 @@
 
 ### Thiết lập
 - End-users chỉ cần thiết lập True/False cho thuộc tính `draft` trên 1 trang cụ thể
-- Developers cần thêm partial Draft vào các trang muốn có tính năng này
+- Developers cần thêm tính năng này 
    - field `draft` mặc định bị ẩn, hãy thiết lập trong Config để hiển thị 
-   - Sử dụng F1 để insert `:Partial]` hoặc thêm bằng handlebars code `{{> partial-draft }}`
+   - nếu chưa có Partial này, thì sử dụng Script code bên dưới để tạo mới
+   - Sử dụng F1 để insert `:Partial]` hoặc thêm bằng handlebars code `{{> partial-draft }}` vào layout trang web muốn áp dụng
 ### Cơ chế xử lý
 - nếu `draft` = true, thì thêm đoạn script vào trong trang web
 - script sẽ kiểm tra current url để hiển thị bình thường hoặc chuyển sang trang 404 Not Found
@@ -31,8 +32,7 @@
     }
 
     if (is404) {
-        var redirectPath = '{{global.notFoundPage}}';
-        window.location.replace(redirectPath !== '' ? redirectPath : '/404');
+        window.location.replace('/404');
     }
 </script>
 {{/if}}

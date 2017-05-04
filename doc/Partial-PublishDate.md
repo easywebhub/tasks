@@ -28,8 +28,7 @@
         is404 = true;
 
     if (is404) {
-        var redirectPath = '{{global.notFoundPage}}';
-        window.location.replace(redirectPath !== '' ? redirectPath : '/404');
+        window.location.replace('/404');
     }
 </script>
 {{/if}}
