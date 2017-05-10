@@ -1,5 +1,5 @@
 
-### I. 5 Nguyên tắc cơ bản [Chi tiết](https://github.com/easywebhub/tasks/wiki/Nguyên-tắc-làm-việc-của-EasyWeb)
+### I. 5 Nguyên tắc cơ bản [Chi tiết](/wiki/Nguyên-tắc-làm-việc-của-EasyWeb)
 
 1. **Trách nhiệm tạo Công Việc cho mình**
  
@@ -11,7 +11,7 @@
  
 5. **Trạng thái Công Việc được cập nhật từ dưới lên**
 
-### II. Cộng tác trong môi trường team-work [Chi tiết](https://github.com/easywebhub/tasks/blob/master/EasyWeb-Collaboration.md)
+### II. Cộng tác trong môi trường team-work [Chi tiết](/EasyWeb-Collaboration.md)
 
 #### 1. Vai trò đưa yêu cầu
 
@@ -30,7 +30,7 @@
 1. hoàn thành đúng yêu cầu trong timeline thống nhất 
 
 #### 3. Workflow cộng tác
-- tham khảo sơ đồ ở [Collaboration Workflow](https://github.com/easywebhub/tasks/blob/master/EasyWeb-TeamWork.png)
+- tham khảo sơ đồ ở [Collaboration Workflow](/EasyWeb-TeamWork.png)
 
 ### III. Nguyên tắc để trao đổi trực tiếp (cuộc họp) đạt hiệu quả
 
@@ -57,6 +57,6 @@
 
 - [EasyWeb Overview](https://github.com/easywebhub/tasks/wiki)
 
-- [Collaboration Workflow](https://github.com/easywebhub/tasks/blob/master/EasyWeb-TeamWork.png)
-- [trao đổi trực tiếp hiệu quả](https://github.com/easywebhub/tasks/blob/master/TraoDoiTrucTiepHieuQua.md)
+- [Collaboration Workflow](/EasyWeb-TeamWork.png)
+- [trao đổi trực tiếp hiệu quả](/TraoDoiTrucTiepHieuQua.md)
 
