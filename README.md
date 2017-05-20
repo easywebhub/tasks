@@ -1,5 +1,5 @@
 
-### I. 5 Nguyên tắc cơ bản [Chi tiết](/wiki/Nguyên-tắc-làm-việc-của-EasyWeb)
+### I. 5 Nguyên tắc cơ bản [Chi tiết](https://github.com/easywebhub/tasks/wiki/Nguy%C3%AAn-t%E1%BA%AFc-l%C3%A0m-vi%E1%BB%87c-c%E1%BB%A7a-EasyWeb)
 
 1. **Trách nhiệm tạo Công Việc cho mình**
  
