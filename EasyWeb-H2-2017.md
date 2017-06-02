@@ -61,3 +61,8 @@
 - Manage servers for EasyWeb running
 - Monitor resources and github operating
 - Add more resources
+
+### 6. Cải thiện EasyBuilder
+
+- điều chỉnh nội dung thông báo cho users dễ hiểu, dễ sử dụng 
+- điều chỉnh giao diện cho đẹp, thân thiện hơn 
