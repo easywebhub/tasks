@@ -55,6 +55,24 @@
       {{moment date lang="vi" format="dddd, DD MM YYYY HH:mm"}}
    ```
 
+- `../` để lấy biến bên ngoài 1 cấp, ví dụ vòng lặp (`each`), hoặc (`with`)
+   - ví dụ 
+    ```js 
+    {{AllCategory.children}}   // truy cap AllCategory, lấy danh sách children 
+    {{#each ...}}
+        {{../AllCategory.children}}  //dùng 1 lần  `../` để truy cập AllCategory 
+        {{#with ...}}
+            {{../../AllCategory.children}}  //dùng 2 lần `../`  để truy cập AllCategory 
+        {{/each}}
+    {{/each}} 
+    ```
+
+### Biến toàn cục, cho phép truy cập trong mọi trang 
+
+- `AllCategory` : chứa Danh Mục root trên cùng chưa toàn bộ Danh Mục bên trong 
+- `AllTags`:  chứa danh sách Chủ đề đang có của website 
+
+
 - `(lookupCategory  AllCategory param-1  param-2)` : tìm Danh mục của website
    - `param-1`: tên của Danh mục cần tìm, ví dụ `thoi-su`, hoặc thuộc tính `category` nếu ở 
    - `param-2`: tên của thuộc tính của danh mục, 
@@ -62,8 +80,6 @@
       - `files` : danh sách trang thuộc danh mục này
       - `href` : đường dẫn của trang Danh Mục này
       - `displayName` tên hiển thị của danh mục này 
-
-  
 
 ### Một số trường hợp thông dụng 
 - ví dụ: kiểm tra và hiển thị hình ảnh 
@@ -74,10 +90,12 @@
     <img src="https://easywebhub.com//img/no-available-image.png" alt="no image available"/>
 {{/if}}
 ```
-### 
+
+
+- Mỗi 1 trang chi tiết thuộc 1 Danh mục cụ thể, được lưu trong thuộc tính `category`.
 
 ```js 
-{{#with (lookupCategory ../AllCategory category)}}
+{{#with (lookupCategory AllCategory category)}}
     <a class="tip" href="/{{href}}">{{displayName}}</a>
 {{/with}}
 ```
