@@ -1,0 +1,25 @@
+
+# The EasyBuilder process when deleting pages of a EasyWeb'website
+
+## Description 
+
+### On Website 
+- When go to a deleted page's Url, it shows the "404 not found" page
+- not showed on list pages of the website such as HomePage, Category, Tag pages, Common Blocks 
+
+### On EasyBuilder
+- not show on the list of Content on the left column SideBar
+- maybe show on "Deleted" filter of Content
+
+## How to do 
+### websites
+- Change deleled pages'layout to default `404.html` 
+- remove delete pages' metadata out of `AllCategory,AllTag`, 
+- remove from `pagination` variables, make sure not effect when paging 
+
+### EasyBuilder
+- Improve the Content, add Filters beside the Search "by keyword"
+  - filter by show DropdownList of Category, Tag beside the Search
+- hide deleted pages, layout=404.html, on list pages. 
+
+
