@@ -2,16 +2,36 @@
 # Khám phá khả năng của EasyBuilder
 
 ## Tổng hợp
-> Quy trình phát triển
-![DevelopmentProcess](DevelopmentProcess.png)
-> Hệ sinh thái EasyWeb 
-![EW-Ecosystem](EasyWeb-Ecosystem.png)
-
 ### 1. Prototype: tạo ra Prototype dựa theo yêu cầu
+- Admin Prototype: ví dụ: [Metronic v5](http://mymetronic02.showcase.easywebhub.me/)
+    - Menu tự động sinh ra dựa trên Danh Mục
+    - Trang Chi Tiết đối tượng: hành động tạo mới | xem chi tiết | ...
+    - Trang Danh Sách danh sách đối tượng, cho phép phân chia theo trạng thái
+
+- EIC eic-demo.vinaas.com
+- KieuHoi     
+    
 ### 1. UserFrontend: Tạo ra website mới từ themes có sẵn hoặc từ websites có sẵn
+- https://thuysan247.com
+- demo.thoibaophuongdong.vn
+
 ### 1. StaffAdminCP: tạo ra trang quản trị từ HTML Admin themes có sẵn
 - xây dựng dựa trên Prototype 
 - tùy chọn Frontend framework sử dụng: SinglePageAppcation (SPA) hoặc Web pages
+    - EIC: http://qlgd.eic.com.vn
+    - 
+
+> Quy trình phát triển
+![DevelopmentProcess](DevelopmentProcess.png)
+## All-in-one Easyweb: UserFrontend vs StaffAdminCP
+![EW-Generator](EW-AdminCPGenerator.png)
+
+- sử dụng EasyBuilder để xây dựng Prototype cho Frontend và AdminCP
+
+- Chuyển đổi Prototype sang Web Front hoàn chỉnh
+
+## Hệ sinh thái EasyWeb 
+![EW-Ecosystem](EasyWeb-Ecosystem.png)
 
 
 ## UserFrontend: website builder
