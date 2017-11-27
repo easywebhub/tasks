@@ -11,7 +11,8 @@
 ## Mô hình tổng quan:
 ![EW-Generator](EW-AdminCPGenerator.png)
 
-### Giải pháp hiện thực 02 (màu vàng)
+### Thực hiện Số 02: Staff AdminCP
+![101-102](EW-AdminCPGenerator-101-102.png)
 
 #### Số 101 :
 ##### Ưu điểm:
