@@ -1,6 +1,17 @@
 
 # Khám phá khả năng của EasyBuilder
 
+## Tổng hợp
+> Quy trình phát triển
+![DevelopmentProcess](DevelopmentProcess.png)
+> Hệ sinh thái EasyWeb 
+![EW-Ecosystem](EasyWeb-Ecosystem.png)
+
+### 1. Prototype: tạo ra Prototype dựa theo yêu cầu
+### 1. UserFrontend: Tạo ra website mới từ themes có sẵn hoặc từ websites có sẵn
+### 1. StaffAdminCP: tạo ra trang quản trị từ HTML Admin themes có sẵn
+- xây dựng dựa trên Prototype 
+- tùy chọn Frontend framework sử dụng: SinglePageAppcation (SPA) hoặc Web pages
 
 
 ## UserFrontend: website builder
@@ -151,7 +162,7 @@
 
 - lấy ra giám định viên chính của vụ giám định
     1. có được `slug` Nhân Viên của giám định viên chính từ `gdvId`
-    
+
 ### Pros: Ưu điểm
 1. Thiết lập, cài đặt 
     - từ template có sẵn
@@ -161,4 +172,8 @@
 
 1. Domain Data: 
 
+## Luyện Tập EasyBuilder với các yêu cầu thực tế
+- sử dụng, nghiền ngẫm EasyBuilder 
 
+## Đưa ra UI | UX phù hợp với yêu cầu của khách hàng
+- tìm hiểu, nghiền ngẫm các template ví dụ Metronic (hoặc pages )
