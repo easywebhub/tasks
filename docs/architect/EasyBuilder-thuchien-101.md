@@ -1,5 +1,34 @@
 # 101: StaffAdminCP sử dụng EasyBuilder
 
+## Tóm lượt
+
+### Xây dựng giao diện trang StaffAdminCP
+> EasyBuilder, HTML admin themes, *.schema.json
+
+- Kế thừa:
+    - data `*.md` files
+    - *.schema.json 
+    - *.html layout files (empty)
+
+- html admin files
+    - thiết lập databinding sử dụng VueJS
+    - data: sinh ra bởi `handlebar query`
+
+### ExpressJS tích hợp với api backend    
+- thiết lập router 
+- Áp dụng Vue và API backend
+    - thay thế phần `handlebarJS query` thành các api backend
+    - bổ sung api cho `submit` function
+
+
+### Vuejs with HTML admin themes
+
+- Input forms
+- Table 
+- Dùng chung theo css framework
+    - bootstrap
+    - semantic ui
+    - framework 7 
 
 ### Công cụ đang có
 
@@ -20,40 +49,55 @@
 
 ### StaffAdminCP: tính năng cơ bản
 
-#### Trang chi tiết:
+#### Trang chi tiết: HTML pages trả về cho Client
 
-- Form nhập liệu:
-    - input UI tùy theo định nghĩa nhập liệu: upload files, boolean checkbox, ...
-    - kết nối với các đối tượng Danh Mục khác: thông qua API call (có thể sinh ra sẵn)
-
-    - Submit dữ liệu thông qua API | upload file services
-
-- Cấu trúc: HTML pages trả về client 
+- Cấu trúc: 
     - layout binding với json data 
     - json data dùng để submit lên api 
 
-```
-<body>
-    <div>
-        //2way-data binding tại đây
 
-        <button submit="save()">        
-    </div>
 
-    <script>
-        var model = data //binding với layout bên trên
+```html 
+<div id="inputForm">
+    <input type="text" v-model="title" >
+    <label v-html="slug" >
+    <button v-on:click="post" class="btn btn-primary">Submit</button> 
+</div>
 
-        activate = function{
-            model.category  = api.call()    
-        }
-        save = function() {
-            post (data)    {
+<script src="https://cdn.jsdelivr.net/npm/vue"></script> <!-- include vuejs lib -->
+
+<script>
+    //lấy dữ liệu dùng handlebar query 
+    var page = {
+        title: '{{title}}',
+        slug: '{{slug}}',
+        category: '{{category}}'
+    };
+
+    var AllCategory = [] //'{{#each AllCategory.children}} {{displayName}} {{/each}}';
+
+    var app = new Vue({
+        el: '#inputForm',
+        data: {
+            item: page,
+            AllCategory: AllCategory
+        },
+        methods: {
+            post: function () {
+                console.log('input data is: ', this.item);
+                //call API here
             }
         }
-
-    </script>
-</body>
+    })
+</script>
 ```
+
+- Form nhập liệu:
+    - input UI tùy theo định nghĩa nhập liệu: upload files, boolean checkbox, ...
+    - kết nối với các Danh Mục khác:
+        - thông qua API call (có thể sinh ra sẵn)
+        - lúc DEV | TEST thì sinh ra tĩnh sử dụng lệnh Handlebar
+    - Submit dữ liệu thông qua API | upload file services
 
 - Trang Danh sách :
     - danh sách đối tượng cho phép phân trang 
@@ -67,6 +111,8 @@
 
 
      
+### Lý do chọn hướng static
+1. complex input forms, ko dùng auto generate
 
-
-        
+1. inline edit
+1. layouts tùy biến sử dụng easybuilder
