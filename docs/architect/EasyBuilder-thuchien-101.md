@@ -55,8 +55,6 @@
     - layout binding với json data 
     - json data dùng để submit lên api 
 
-
-
 ```html 
 <div id="inputForm">
     <input type="text" v-model="title" >
@@ -91,6 +89,9 @@
     })
 </script>
 ```
+- Hướng mở rộng:
+    1. sử dụng trực tiếp dữ liệu .md files khi phát triển website
+    1. thay thế bằng API backend khi triển khai thực tế
 
 - Form nhập liệu:
     - input UI tùy theo định nghĩa nhập liệu: upload files, boolean checkbox, ...
@@ -111,8 +112,14 @@
 
 
      
-### Lý do chọn hướng static
-1. complex input forms, ko dùng auto generate
+### Lý do chọn static generating 
 
+#### Đáp ứng yêu cầu thực tế
+1. complex input forms, ko dùng auto generate
 1. inline edit
 1. layouts tùy biến sử dụng easybuilder
+
+#### Tối ưu quy trình phát triển:
+- Ưu điểm của EasyBuilder 
+- Json Schema | fake jsonData: kế thừa từ dữ liệu websites có sẵn
+- Handlebar query để hiển thị nhanh chóng
