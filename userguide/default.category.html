@@ -1,0 +1,33 @@
+<h1>EasyWeb</h1>
+<h3>Default Category Layout</h3>
+
+<h3>Mot so thuoc tinh cua Category</h3>
+
+<p> Href:   {{href}} </p>
+<p> category:   {{category}} </p>
+<p> So luong bai viet:   {{files.length}} </p>
+<p> layout:   {{layout}} </p>
+<p> DisplayName:   {{displayName}} </p>
+
+<h3>Tat ca tin tuc thuoc AllCategory</h3>
+{{#each AllCategory.files}}
+<h4> Bai viet so {{@key}} </h4>
+<div>
+      {{slug}} <br/>
+      Danh Muc: {{category}} <br/>
+      {{title}} <br/>
+</div>
+{{/each}}
+
+<h3>tin tuc Danh Muc hien tai: {{pagination.displayName}}</h3>
+{{#each pagination.files}}
+<h4> Bai viet so {{@key}} </h4>
+<div>
+      {{slug}} <br/>
+      Danh Muc: {{category}} <br/>
+      {{title}} <br/>
+</div>
+{{/each}}
+
+
+
