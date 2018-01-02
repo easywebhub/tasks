@@ -6,7 +6,7 @@
         - Cùng một tọa độ GPS vẫn cho phép nhiều Place, Place có tọa độ 3D (x,y,z) và bán kính giới hạn. 
     - Tour: là liên kết nhiều Places có cùng chủ đề (Tags). 
         - Tour là List có thứ tự và có Start Place, End Place
-        - Round là List kết nối thành vòng kín 
+        - Round là tour kết nối thành vòng kín 
     - Area: là tập hợp nhiều Place trong một khu vực giới hạn 
         - Area chứa nhiều List bên trong
 
@@ -24,10 +24,9 @@
     - Public: tạo mới hoặc chuyển đổi từ Group bởi Admin Team,
 
 - User: người sử dụng, chia thành 2 nhóm
-    - normal : người dùng bình thường, chủ đề tạo ra giá trị tin tưởng không cao
-    - guru: chuyên gia trong lĩnh vực nào đó, chủ đề do nhóm này tạo ra có khả năng chia sẻ cao 
-
-    
+    - `normal` : người dùng bình thường, chủ đề tạo ra giá trị tin tưởng không cao
+    - `guru`: chuyên gia trong lĩnh vực, chủ đề nào đó, phản hồi của họ có giá trị tin tưởng, xác thực cao hơn normal khá nhiều
+   
 
 ## Tính năng chính:
 ### Search
@@ -47,6 +46,37 @@
     1. Các Tour đi qua điểm đó
     1. Area chứa điểm đó
 
+### Follow: theo dõi
+- **Place Followers** : theo dõi các sự kiện mới liên quan tới địa điểm đó. 
+Có thể giới hạn theo Topic cụ thể
+
+- **Tour Followers**: theo dõi các sự kiện liên quan 
+    - Bổ sung Place vào Tour
+    - Bổ sung Chủ đề vào Tour
+
+- **Area** : theo dõi các sự kiện theo khu vực
+
+### Rating | Validation
+
+- **Rating**: users rating các nội dung người khác tạo ra
+    - like | comment
+
+- **Validation**: xác thực, kiểm tra nội dung     
+    - `trust` : tin tưởng vào giá trị của nội dung 
+    - `confirm`: xác nhận nội dung đúng
+
+### Share: Chia sẻ
+- **Group Sharing**: giới hạn Spam trong cộng đồng public
+    - chia sẻ trong Group liên quan
+
+- **Topic Sharing**: chia sẻ trong phần cùng chủ đề
+
+- **Place Sharing**: chia sẻ cho Users     
+
+- **SharePoints**: điểm để được chia sẻ: 
+    - điểm càng cao, chủ đề tạo ra chia sẻ dễ dàng
+    - điểm tạo bởi số lượt `Trust` của `Normal` và `Guru` users
+
 ### Create Content 
 - **Create**: tạo Chủ Đề 
     1. Nội dung đa dạng: từ đơn giản: hashtags, keyword, tới phức tạp như bài viết, review, ... 
@@ -59,21 +89,6 @@
         - blogger: cá nhân có kĩ năng viết tốt
         - content parter | company: công ty, nhóm chuyên tạo Nội dung: agency, ...
 
-### Content Rating | Validation
-
-- **Rating**: users rating các nội dung người khác tạo ra
-    - like | comment
-    - trust : tính chính xác | giá trị của nội dụng
-
-- **Validation**: xác thực, kiểm tra nội dung     
-
-### Share: Chia sẻ
-- **Group Sharing**: chia sẻ theo group, giới hạn Spam trong cộng đồng public
-
-- **SharePoints**: điểm để được chia sẻ: 
-    - điểm càng cao, chủ đề tạo ra chia sẻ dễ dàng
-    - điểm tạo bởi số lượt `Trust` của `Normal` và `Guru` users
-    
 
    
     
