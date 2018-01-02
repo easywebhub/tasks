@@ -1,6 +1,8 @@
 # Trang Bản Đồ Thông Tin Dành Cho Du Lịch
 
 ## Khái niệm
+
+### Về Địa điểm 
 - Bản đồ (Map) gồm nhiều   Places, List, Area
     - Place: là một điểm trên bản đồ. 
         - Cùng một tọa độ GPS vẫn cho phép nhiều Place, Place có tọa độ 3D (x,y,z) và bán kính giới hạn. 
@@ -10,23 +12,42 @@
     - Area: là tập hợp nhiều Place trong một khu vực giới hạn 
         - Area chứa nhiều List bên trong
 
+### Về Nội Dung Topic:
 - Topic : nội dung dùng để mô tả Place, List và Area, gồm nhiều hashtags, tags, article, 
-        - Hashtags: keyword trong nội dung mô tả
-        - Tag : nội dung gồm title, image | video, linkedUrl
-        - Article: bài viết , review | video
+    - Hashtags: keyword trong nội dung mô tả
+    - Tag : nội dung gồm title, image | video, linkedUrl
+    - Article: bài viết , review | video
+    - Trends: xu hướng nội dung 
+    - công đồng ngôn ngữ
+    
+- Liên kết Chủ Đề:
+    - Theo Cấu trúc Cây: từ tổng quát tới chi tiết
+    - Liên kết ngang hàng
 
-- (Private | Group)  Topic
+### Về User | Group | Community
+- User: cá nhân thông thường, chia thành 2 nhóm
+    - `normal` : người dùng bình thường, chủ đề tạo ra giá trị tin tưởng không cao
+    - `guru`: chuyên gia trong lĩnh vực, chủ đề nào đó, phản hồi của họ có giá trị tin tưởng, xác thực cao hơn normal khá nhiều
+
+- Group: gắn kết theo Chủ Đề (Topic) liên quan, ngôn ngữ sử dụng
+    - Group theo cấu trúc cây: có thứ bật với quản trị đứng đầu
+    - Group phẳng: ngang nhau với mọi cá nhân, nhưng phân biệt theo mức độ `normal` hoặc `guru`
+
+- Community: gắn kết theo Vị trí địa lý, ngôn ngữ sử dụng
+    - chia thành group nhỏ
+
+### Về quyền truy cập: Permission
+- 3 cấp chính: Private | Group | Community 
+
+- (Private | Group)  Topic: 
+    - chủ đề riêng theo từng cá nhân Users
+    - chủ đề chia sẻ trong groups 
 - (Public | Group | Private) Map: Place | List | Area: 
     - Private Map: tạo ra bởi mỗi cá nhân, clone từ Group hoặc Public Maps có sẵn
     - Group: 
         - tạo bởi các Partners hoặc Members của group(Rating | Verified)
         - Nâng cấp từ Private
     - Public: tạo mới hoặc chuyển đổi từ Group bởi Admin Team,
-
-- User: người sử dụng, chia thành 2 nhóm
-    - `normal` : người dùng bình thường, chủ đề tạo ra giá trị tin tưởng không cao
-    - `guru`: chuyên gia trong lĩnh vực, chủ đề nào đó, phản hồi của họ có giá trị tin tưởng, xác thực cao hơn normal khá nhiều
-   
 
 ## Tính năng chính:
 ### Search
