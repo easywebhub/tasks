@@ -152,3 +152,6 @@ Có thể giới hạn theo Topic cụ thể
 - share trong group (group map)
 
 
+## Công nghệ
+### Google Maps API 
+- https://google-developers.appspot.com/maps/documentation/javascript/examples/directions-waypoints

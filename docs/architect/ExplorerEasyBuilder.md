@@ -1,20 +1,20 @@
 
 
-# Khám phá khả năng của EasyBuilder
+# Khả năng của EasyWeb
 
 ## Tổng Quan 
 > Quy trình phát triển
 ![DevelopmentProcess](DevelopmentProcess.png)
-## 3 phần Chính 
-### 1. Prototype: tạo ra Prototype dựa theo yêu cầu
-- Admin Prototype: ví dụ: [Metronic v5](http://mymetronic02.showcase.easywebhub.me/)
-    - Menu tự động sinh ra dựa trên Danh Mục
-    - Trang Chi Tiết đối tượng: hành động tạo mới | xem chi tiết | ...
-    - Trang Danh Sách danh sách đối tượng, cho phép phân chia theo trạng thái
 
-- EIC http://eic-demo.vinaas.com 
+
+
+## Áp dụng vào Dự án Thực Tế
+### 1. Prototype: tạo ra Prototype dựa theo yêu cầu
+
+- Hệ thống EIC:  http://eic-demo.vinaas.com 
 - KieuHoi    https://vinaas.github.io/admin-page-template/ 
-    
+
+> Chi tiết về [Prototype]()
 ### 1. UserFrontend: Tạo ra website mới từ themes có sẵn hoặc từ websites có sẵn
 - https://thuysan247.com
 - http://demo.thoibaophuongdong.vn
@@ -25,6 +25,21 @@
     - EIC: http://qlgd.eic.com.vn
     - KieuHoi  http://kieuhoi.vinaas.com 
 
+## Hướng phát triển
+
+### (1-1-n+): EasyWeb cho Doanh Nghiệp
+> Slide chi tiết, [download](https://github.com/easywebhub/tasks/raw/master/docs/architect/EasyWeb.pptx)
+
+- (1-1-n+) là mô hình gồm
+    - 1 UserFront: giao diện dành cho người dùng không cần đăng nhập
+    - 1 StaffAdmin: giao diện dành cho Nhân Viên vận hành, hoặc trang quản trị của người dùng sau khi đăng nhập
+    - n+ backend: n hệ thống rời rạc với nhiều nghiệp vụ khác nhau. 
+
+## Hệ sinh thái EasyWeb 
+![EW-Ecosystem](EasyWeb-Ecosystem.png)
+
+
+
 ## All-in-one Easyweb: UserFrontend vs StaffAdminCP
 ![EW-Generator](EW-AdminCPGenerator.png)
 
@@ -32,8 +47,6 @@
 
 - Chuyển đổi Prototype sang Web Front hoàn chỉnh
 
-## Hệ sinh thái EasyWeb 
-![EW-Ecosystem](EasyWeb-Ecosystem.png)
 
 
 ## UserFrontend: website builder
