@@ -79,7 +79,7 @@ Initilization
 
 - `Template git`, `EasyCMS`, `API loopback` bản build: nên để trong Docker để tiện cho việc triển khai, clone     
 
-## Đã thực hiẹne
+## Đã thực hiện
 
 - Demo Script: https://gist.github.com/nemesisqp/07689449bf526086fa6b6983e1053272
     - 101, 102:  clone từ `template git`, tạo source code, sau đó tạo `website`
@@ -88,7 +88,10 @@ Initilization
         - git account 
         - name của thư muc 
         
-    
+- 001: ví dụ https://github.com/easywebhub/sumolanding,
+- 002: ví dụ https://github.com/vinaas/easyquiz-cms,  gh-pages branch
+- 003: là git url, ví dụ https://github.com/vinaas/easyquiztest/tree/master/backend
+
 
 Giải thích workflow deployment? không hiểu luồng của deployment.
 
@@ -99,6 +102,35 @@ Giải thích workflow deployment? không hiểu luồng của deployment.
 + Bước 102. Từ website cho ra source-code? Nghĩa là gì?
 + 2 Bước này độc lập đúng không?
 
+#### trả lời:
++ Initilzation: nghĩa là khởi tạo các thành phần của website,  (`sourcecode`, `website`, ...) từ template có sẵn. 
+   - chủ yếu là pull từ template có sẵn
+   - thiết lập các thông số riêng cho từng website: ví dụ: sub-domain sẽ sử dụng, ...
+   
++ Sau đó mới chuyển qua các giai đoạn hoạt động
+   - Synchronize: đồng bộ website giữa máy cá nhân <==> server
+   - Generating: khi users thay đổi nội dung trong `sourceCode`, hệ thống tự sinh ra `website` với các thay đổi này
+   - Deployment: Sau khi thay đổi xong, website cần triển khai vào thực tế
+   
++ 001 : template nằm ở 1 git Url, chỉ việc clone (hoặc migration) về
+
+    - `sourceCode` ở master 
+    - `website` ở gh-pages
++ 101: sẽ clone (migrate) về và triển khai trên server `source.easywebhub.com`
++ 101: sẽ clone về máy cá nhân, nằm trong phần mềm `EasyBuilder`
+   - download phần mềm tại easywebhub.com, xem video hướng dẫn để tạo website, hình dung quá trình 
+ 
+```
 + Bước 121, 122.  Từ EasyCMS cho ra web-forms ?. Nghĩa là gì? Các lệnh build là gì?
 + Bước 131,132. Các lẹnh build suorce code cái mà được lấy từ template git?
-+ Bước 141, 142. Có phải là lấy dockerfile từ api. và build docker container. cáclệnh để run docker.?
++ Bước 141, 142. Có phải là lấy dockerfile từ api. và build docker container. cáclệnh để run docker.?`
+```
+  
++ tương tự cho các bước Initilzation khác
++ phần "đã thực hiện" ở trên có script minh họa cho 101 và 102, 
++ 122 giống 121, 132 giống 131, 142 giống 141, chỉ khác nhau thông số trong config, để triển khai lên server riêng của khách hàng 
+thay vì trên server chung
+
++ danh sách các server hiện tại của chúng ta, https://github.com/easywebhub/tasks/wiki, 
+
+
