@@ -91,3 +91,14 @@ Initilization
     
 
 Giải thích workflow deployment? không hiểu luồng của deployment.
+
+---------------------------------------------------------------------------------------
+
+### Hỏi phần Initlitaztion.
++ Bước 101. Từ git repo cho ra web site. Nghĩa là lấy source git (thông tin từ config). và build lên website mới.? Các lệnh build là gì?
++ Bước 102. Từ website cho ra source-code? Nghĩa là gì?
++ 2 Bước này độc lập đúng không?
+
++ Bước 121, 122.  Từ EasyCMS cho ra web-forms ?. Nghĩa là gì? Các lệnh build là gì?
++ Bước 131,132. Các lẹnh build suorce code cái mà được lấy từ template git?
++ Bước 141, 142. Có phải là lấy dockerfile từ api. và build docker container. cáclệnh để run docker.?
