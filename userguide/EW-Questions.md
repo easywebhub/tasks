@@ -89,9 +89,15 @@ Initilization
         - name của thư muc 
         
 - 001: ví dụ https://github.com/easywebhub/sumolanding,
+    - trong này có config để thiết lập build server, deploy server, 
+    - domain tương ứng: thiết lập trong file `/CNAME`
 - 002: ví dụ https://github.com/vinaas/easyquiz-cms,  gh-pages branch
-- 003: là git url, ví dụ https://github.com/vinaas/easyquiztest/tree/master/backend
-
+    - trong source này có file config, sẽ trỏ tới phần `001` hoặc `003` tương ứng
+- 003: (API Loopback) là git url, ví dụ https://github.com/vinaas/easyquiztest/tree/master/backend
+    1. pull source về server (VPS) có cài đặt NodeJS
+    1. lệnh để cài đặt và chạy https://github.com/vinaas/easyquiztest/tree/master/backend#l%E1%BB%87nh
+    1. các thông tin kết nối api looback với phần khác của website nằm trong file cấu hình nằm trong source trên, [sample](https://github.com/vinaas/easyquiztest/blob/master/backend/server/config.json)
+- Nên đóng gói `001`, `002`, `003` vào 1 hoặc nhiều Docker image, để việc pull, push, cấu hình dễ dàng hơn
 
 Giải thích workflow deployment? không hiểu luồng của deployment.
 
