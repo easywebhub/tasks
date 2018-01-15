@@ -132,5 +132,11 @@ Giải thích workflow deployment? không hiểu luồng của deployment.
 thay vì trên server chung
 
 + danh sách các server hiện tại của chúng ta, https://github.com/easywebhub/tasks/wiki, 
-
+-------------------------------------------------------------------------------------------------------------------
+#### Hỏi thông tin để bắt đầu làm Initialization.
++ Bước 101.  Cung cấp url của template GIT và user, password để đưa vào script test thử. Khi có được suorce-code rồi. Cung cấp các lệnh build và triển khai trên server. Cách triển khai như thế nào?
++ Bước 102. Cung cấp url GIT để clone suorce-code về EASYBUILDER. Mà suorce-code ở EASYBUILDER để làm gì?
++ Bước 121, 122. Cung cấp cách thức gọi webform.(api, user, pass) . Các lệnh dùng để build lên source -code lên EASYCMS sau khi lấy được từ api.
++ Bước 131, 132. sử dụng template GIT như ở Bước 101 ??
++ Bước 122, 142. Cung cấp cách thức gọi API lookback ?. Các lệnh khi build run Docker container ?
 
