@@ -1,6 +1,17 @@
 
 > link gốc https://github.com/easywebhub/tasks/blob/master/docs/architect/EWDeploymentFlow.md
 
+
+
+## EasyWeb tổng quan
+> https://github.com/easywebhub/tasks/blob/master/docs/EasyWeb-howitworks-vn.pdf
+
+- web admin => `easyCMS`
+- API services => `api loopback`
+- HTML, CSS, JS => `website`
+- (Layout + Content) => `sourceCode`
+- Generator: công cụ để build `sourceCode` thành `website`
+
 ## Câu hỏi và giải thích
 
 ### Câu hỏi
