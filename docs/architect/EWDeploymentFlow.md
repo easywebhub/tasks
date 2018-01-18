@@ -12,6 +12,20 @@
 - http://websiteName.userName.easywebhub.me:  domain tự động tạo theo từng website
     - ví dụ: http://vinaas.showcase.easywebhub.me
 
+- sơ đồ tổ chức website theo users
+```
+/root
+    |_ userA 
+        |__ website-1
+            |__ UserFront: 1 git repo
+            |__ easyCMS: 1 git repo
+            |__ apibackend: 1 git repo
+        |__ website-2
+    |_ userB
+        |__ website-1
+        |__ website-2
+    |_ ...
+```
 ### Các phần của website: 
 > tài liệu: hình mô họa https://github.com/easywebhub/tasks/blob/master/docs/architect/EasyWeb-Ecosystem.png?raw=true
 
