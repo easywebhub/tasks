@@ -6,11 +6,11 @@
 - ![flow](DeploymentWorkflow.png)
 
 ## Thiết lập:
+> Người dùng chỉ cần nhập tên website, websiteName, hệ thống tự xử lý và sinh ra website cần thiết
 
 - `userName`: tên khách hàng, duy nhất, `websiteName`: tên website, duy nhất theo từng khách hàng
 - http://websiteName.userName.easywebhub.me:  domain tự động tạo theo từng website
     - ví dụ: http://vinaas.showcase.easywebhub.me
-
 
 ### Các phần của website: 
 > tài liệu: hình mô họa https://github.com/easywebhub/tasks/blob/master/docs/architect/EasyWeb-Ecosystem.png?raw=true
