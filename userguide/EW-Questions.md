@@ -156,4 +156,15 @@ thay vì trên server chung
 + Bước 121, 122. Cung cấp cách thức gọi webform.(api, user, pass) . Các lệnh dùng để build lên source -code lên EASYCMS sau khi lấy được từ api.
 + Bước 131, 132. sử dụng template GIT như ở Bước 101 ??
 + Bước 122, 142. Cung cấp cách thức gọi API lookback ?. Các lệnh khi build run Docker container ?
+-------------------------------------------------------------------------------------------------------------------
+#### Hỏi về generate.
++ Bước 14. Chạy ở trên phần mềm EASYBUILDER? script này có rồi đúng ko? Nó là bat script.?
+Nó làm nhiệm vụ build source code nó hay sao?
+
++ Bước 42, 43. Cung cấp chi tiết từng lệnh npm start, npm watch  cho cái source đó.
+Source 040. có phải kết quả của bước Init 131, 132 không?
+
+#### Deployment
++ Bước 21. Script chạy ở phần mềm? Đã có rồi đúng ko?
++ Giải thích bước 22, 51, 52 , 53, 61, 62, 63, 64.?
 
