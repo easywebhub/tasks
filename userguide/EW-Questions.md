@@ -163,6 +163,10 @@ Nó làm nhiệm vụ build source code ?
 
 + Bước 42, 43. Cung cấp chi tiết từng lệnh npm start, npm watch  cho cái source đó.
 Source 040. có phải kết quả của bước Init 131, 132 không?
++ Trả lời:
+ - Nhiệm vụ của Build, hoặc watch, là kiểm tra có thay đổi trong files nằm trong thư mục source, sẽ sinh ra file html mới nằm trong thư mục /build (website)
+ - Bản website mới, sẽ qua giai đoạn deploy, sẽ cập nhật lên hosting (hoặc github gh-pages) chứa website thực tế 
+ - từ bên ngoài sẽ thấy được nội dung thay đổi
 -------------------------------------------------------------------------------------------------------------------
 #### Hỏi về deployment (Đã trả lời)
 + Bước 22 là ở deployment. là push code lên Easywebhub.com ?
