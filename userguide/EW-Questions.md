@@ -156,4 +156,37 @@ thay vì trên server chung
 + Bước 121, 122. Cung cấp cách thức gọi webform.(api, user, pass) . Các lệnh dùng để build lên source -code lên EASYCMS sau khi lấy được từ api.
 + Bước 131, 132. sử dụng template GIT như ở Bước 101 ??
 + Bước 122, 142. Cung cấp cách thức gọi API lookback ?. Các lệnh khi build run Docker container ?
+-------------------------------------------------------------------------------------------------------------------
+#### Hỏi về generate. (Đã trả lời.)
++ Bước 14. Chạy ở trên phần mềm EASYBUILDER? script này có rồi đúng ko? Nó là bat script.?
+Nó làm nhiệm vụ build source code nó hay sao?
+
++ Bước 42, 43. Cung cấp chi tiết từng lệnh npm start, npm watch  cho cái source đó.
+Source 040. có phải kết quả của bước Init 131, 132 không?
+#### Hỏi về deployment (Đã trả lời)
++ Bước 22 là ở deployment. là push code lên Easywebhub.com ?
+   - Lên 1 git server. Theo url trong setting. Có thể phải giải quyết conflict code trước khi push lên git server.
++ Bước 51, 53 là deploy lên theo server...?
+   - Đúng. Là git server có user pass. Deploy lên server demo hoặc product.
+   - 051 là 1 git repository nằm trên server, Demo easywebhub.com
+   - 052 là 1 git repo nằm trên github.com
+   - bước 52, là đồng bộ, push code, từ 051 lên 052
+   - dấu -> là đồng bộ, push code
+   - 0xx là 1 thư mục git, nằm ở branch cụ thể, master hoặc là gh-pages
++ Bước 6x:
+   - 6x là phần trỏ domain tới cách git server kia. Nếu là github.com, thì trỏ domain theo CNAME
+   - Link cho subdomain: https://help.github.com/articles/setting-up-a-custom-subdomain/
+   - Nếu là git server của mình, thì trỏ theo IP (A) hoặc theo CNAME
+   - Mục đích của trỏ domain để bảo đảm, khi truy cập vào website theo domain, nó sẽ trỏ tới đúng website nằm trong thư mục .git
+----------------------------------------------------------------------------------------------------------
+#### Hỏi về synchronization.
++ Easycms là cục build có sẵn, trong đó đã call các api trong loopback cũng có sẵn luôn
++ 2 bên tự động call nhau, nếu cms biết được IP hoặc domain của api loopback
++ Cái này thay đổi tròn settingScript ko cần biết cms làm việc với api những gì
++ Bước 30, 32 làm gì?
+- Bước 30, 32 script sẽ không cần làm. CMS sẽ tư
++ Bước 41 là synchonize source giữa source tren server khách hàng vào trong server easywebhub ?
+- Sử dụng công nghệ gitweb-hook.
+- Đóng vai trò api listen gỉt trigger từ github, gitlab, …
+- Link https://github.com/easywebhub/ewh-listener
 
