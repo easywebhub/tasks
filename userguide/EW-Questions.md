@@ -172,17 +172,17 @@ Source 040. có phải kết quả của bước Init 131, 132 không?
 + Bước 22 là ở deployment. là push code lên Easywebhub.com ?
  - Lên 1 git server. Theo url trong setting. Có thể phải giải quyết conflict code trước khi push lên git server.
 + Bước 51, 53 là deploy lên theo server...?
- - Đúng. Là git server có user pass. Deploy lên server demo hoặc product.
- - 051 là 1 git repository nằm trên server, Demo easywebhub.com
- - 052 là 1 git repo nằm trên github.com
- - bước 52, là đồng bộ, push code, từ 051 lên 052
- - dấu -> là đồng bộ, push code
- - 0xx là 1 thư mục git, nằm ở branch cụ thể, master hoặc là gh-pages
+  - Đúng. Là git server có user pass. Deploy lên server demo hoặc product.
+  - 051 là 1 git repository nằm trên server, Demo easywebhub.com
+  - 052 là 1 git repo nằm trên github.com
+  - bước 52, là đồng bộ, push code, từ 051 lên 052
+  - dấu -> là đồng bộ, push code
+  - 0xx là 1 thư mục git, nằm ở branch cụ thể, master hoặc là gh-pages
 + Bước 6x:
- - 6x là phần trỏ domain tới cách git server kia. Nếu là github.com, thì trỏ domain theo CNAME
- - Link cho subdomain: https://help.github.com/articles/setting-up-a-custom-subdomain/
- - Nếu là git server của mình, thì trỏ theo IP (A) hoặc theo CNAME
- - Mục đích của trỏ domain để bảo đảm, khi truy cập vào website theo domain, nó sẽ trỏ tới đúng website nằm trong thư mục .git
+  - 6x là phần trỏ domain tới cách git server kia. Nếu là github.com, thì trỏ domain theo CNAME
+  - Link cho subdomain: https://help.github.com/articles/setting-up-a-custom-subdomain/
+  - Nếu là git server của mình, thì trỏ theo IP (A) hoặc theo CNAME
+  - Mục đích của trỏ domain để bảo đảm, khi truy cập vào website theo domain, nó sẽ trỏ tới đúng website nằm trong thư mục .git
 ----------------------------------------------------------------------------------------------------------
 #### Hỏi về synchronization.
 + Easycms là cục build có sẵn, trong đó đã call các api trong loopback cũng có sẵn luôn
