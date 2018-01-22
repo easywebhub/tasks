@@ -189,7 +189,7 @@ Source 040. có phải kết quả của bước Init 131, 132 không?
 + 2 bên tự động call nhau, nếu cms biết được IP hoặc domain của api loopback
 + Cái này thay đổi tròn settingScript ko cần biết cms làm việc với api những gì
 + Bước 30, 32 làm gì?
- - Bước 30, 32 script sẽ không cần làm. CMS sẽ tư
+ - Bước 30, 32 script sẽ không cần làm. CMS sẽ t
 + Bước 41 là synchonize source giữa source tren server khách hàng vào trong server easywebhub ?
  - Sử dụng công nghệ gitweb-hook.
  - Đóng vai trò api listen gỉt trigger từ github, gitlab, …
