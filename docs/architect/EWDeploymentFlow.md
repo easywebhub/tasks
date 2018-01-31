@@ -54,7 +54,7 @@
 
 ## Điều chỉnh workflow
 > xem hình worklow trên cùng
-- bỏ `131`, sử dụng `104` để tạo `040` từ `020`, sau đó tạo `042` và đồng nhất với `021`
+- bỏ `131`, thay bằng `105` và `106` 
 
 - thay đổi tên: 
     - `102` cũ đổi thành `103`: 
@@ -62,9 +62,12 @@
 
 - bổ sung
     - `102` : git clone: có thể gom chung `101 & 102` thành: migration 
-    - `104`: git clone 
+    - `103` và `104`: sử dụng bởi EasyBuider trên máy cá nhân
+    - `105` và `106`: git clone  trên build server
     - `420`: npm install, để sau đó có thể chạy `42`
     - `21, 22`: git push, merge with remote , bảo đảm `014, 042` đồng nhất với `021`
+    - `143` : các lệnh cài đặt và chạy api backend
+
 
 > tìm hiểu thêm 
 ## Giải thích
