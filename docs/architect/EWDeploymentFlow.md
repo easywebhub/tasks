@@ -52,7 +52,21 @@
 - `003` và `030` : thu mục https://github.com/vinaas/easyquiztest/tree/master/backend
 
 
+## Điều chỉnh workflow
+> xem hình worklow trên cùng
+- bỏ `131`, sử dụng `104` để tạo `040` từ `020`, sau đó tạo `042` và đồng nhất với `021`
 
+- thay đổi tên: 
+    - `102` cũ đổi thành `103`: 
+    - `21` bị trùng thành `201` : git pull , tương ứng với `20`: git push 
+
+- bổ sung
+    - `102` : git clone: có thể gom chung `101 & 102` thành: migration 
+    - `104`: git clone 
+    - `420`: npm install, để sau đó có thể chạy `42`
+    - `21, 22`: git push, merge with remote , bảo đảm `014, 042` đồng nhất với `021`
+
+> tìm hiểu thêm 
 ## Giải thích
 
 ### Script tự động
