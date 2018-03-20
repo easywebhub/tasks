@@ -19,10 +19,10 @@
     title : string 
     description : string 
     location : [number, number] //[-122.270833, 37.804444]
-	status : string
     topicIds : []  //các chủ đề liên quan
     placeIds : [string] //dùng cho Tour | Area  hasPlaces
     tourIds : [string] // dùng cho Area hasTours
+	status : string
 }
 
 - topic
@@ -38,6 +38,7 @@
     parentTopicId: string //chủ đề cha 
 	rootTopicId: string	//thuộc nhóm chủ đề
     relatedTopicIds : [] // chủ đề liên quan ngang hàng
+    status : string 
 }
 
 

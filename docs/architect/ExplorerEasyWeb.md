@@ -26,9 +26,18 @@
 
 ### 1. StaffAdminCP: tạo ra trang quản trị từ HTML Admin themes có sẵn
 - xây dựng dựa trên Prototype 
-- tùy chọn Frontend framework sử dụng: SinglePageAppcation (SPA) hoặc Web pages
     - EIC: http://qlgd.eic.com.vn
     - KieuHoi  http://kieuhoi.vinaas.com 
+- CMS quản trị nhiều website 
+    - workflow vận hành [cơ bản](magazine-flow-v1.png)
+    - http://magazine-cms.vinaas.com/
+- Phần Mềm thi trắc nghiệm online
+    - [mô tả tính năng](https://github.com/vinaas/easyquiztest/#m%C3%B4-t%E1%BA%A3-t%C3%ADnh-n%C4%83ng)
+    - http://thithuonline.vinaas.com/
+
+- triển khai theo lựa chọn của khách hàng
+    - SinglePageAppcation (SPA): aurelia, vue, react, angular
+    - Web pages: asp.net mvc5, ...
 
 ## Hướng phát triển
 
