@@ -13,6 +13,7 @@
 - Dễ dàng triển khai: automation 
 - Dễ dàng cho việc phát triển
 
+
 ## Giải pháp
 ### Sử dụng được với tất cả HTML themes
 > chủ yếu trên themesforest 

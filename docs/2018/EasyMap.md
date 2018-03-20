@@ -12,6 +12,35 @@
     - Area: là tập hợp nhiều Place trong một khu vực giới hạn 
         - Area chứa nhiều List bên trong
 
+{
+    id : string 
+    level : number
+    type : string //LocationTypes: PLACE | TOUR | AREA
+    title : string 
+    description : string 
+    location : [number, number] //[-122.270833, 37.804444]
+	status : string
+    topicIds : []  //các chủ đề liên quan
+    placeIds : [string] //dùng cho Tour | Area  hasPlaces
+    tourIds : [string] // dùng cho Area hasTours
+}
+
+- topic
+{
+    id : string;
+    type : keyword | article | video 
+    keyword: [ string ]
+    title : string 
+    description : string
+    placeIds : [string]  //topic for places
+    tourIds : [string]    //topic for tours
+    areaIds : [string]		//topic for area
+    parentTopicId: string //chủ đề cha 
+	rootTopicId: string	//thuộc nhóm chủ đề
+    relatedTopicIds : [] // chủ đề liên quan ngang hàng
+}
+
+
 ### Về Nội Dung Topic:
 - Topic : nội dung dùng để mô tả Place, List và Area, gồm nhiều hashtags, tags, article, 
     - Hashtags: keyword trong nội dung mô tả
@@ -130,9 +159,11 @@ Có thể giới hạn theo Topic cụ thể
     - các tour cùng chủ đề này
 
 ### Tạo nội dung
-- người dùng sẽ tạo nội dung cho 1 địa điểm 
+- Admin | Partner sẽ ra Place:
 
-- người dùng sẽ tạo 1 tour chọn ra từ danh sách địa điểm đang có
+- Partner | Users sẽ tạo nội dung (Chủ Đề) cho 1 địa điểm 
+
+- Partner | Users sẽ tạo 1 tour chọn ra từ danh sách địa điểm đang có
 
  
 ### Place: chia sẻ về một điạ điểm:
