@@ -9,14 +9,19 @@
 - Mục đích: 
     - cho team leader (members) thấy được công việc đang làm 
     - đối chiếu với yêu cầu dễ dàng => tối ưu kết quả
+    - tốn thời gian cho daily update => tiếc kiệm thời gian trao đổi, làm tài liệu sau này
 
-- cần thể hiện các phần: 
-    - Trạng thái - Mô tả - chi tiết (link hình chụp, commit code)  - Lưu ý
+- cần thể hiện: `Trạng thái - Mô tả - chi tiết (link hình chụp, commit code)  - Lưu ý`
     - Trạng thái: tỉ lệ hoàn thành hoặc khó khăn nếu có
     - Mô tả: ngắn gọn vấn đề 
     - Chi tiết: kết quả đã thực hiện, như hình chụp hoặc commit link (khi push code)
     - Lưu ý: khó khăn | vấn đề gặp phải
 
+- Cần hiểu rõ:
+    - daily update là 1 phần của công việc hàng ngày
+    - luyện tập thường xuyên để tối ưu việc cập nhật
+    - hiệu quả cho bản thân, hơn là hiệu quả cho team
+    
 - Tips: để tối ưu việc
     - Mở sẵn tab browser => cập nhật khi kết thúc việc
     - chụp hình khi test kết quả => paste trực tiếp vào gitlab.com
@@ -31,6 +36,10 @@
 - cần thể hiện:
     - tổng hợp từ cập nhật mỗi ngày => đánh giá | cải thiện
     - hoàn thiện hướng dẫn, tài liệu cho kết quả đạt được
+
+- Cần hiểu rõ:
+    - hiệu quả cho team, cũng như cho bản thân
+    
 - tips:
     - task trên gitlab sẽ bị trôi theo thời gian => tổng hợp thành file .md lưu vào /docs 
     - đặt ra câu hỏi cải thiện 
