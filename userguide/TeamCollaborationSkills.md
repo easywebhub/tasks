@@ -17,8 +17,7 @@
 
 
 ## Quy định chung 
-> gồm các hành động EndDate Update, StartDate WarmUp, Meeting Notes, Weekly Review 
-
+> tuân thủ thực hiện Update, WarmUp, Notes, Customer Email, Review 
 
 ### (Enddate) Update
 - cập nhật kết quả theo format
@@ -54,8 +53,10 @@
 - 100% thực hiện trước khi kết thúc meeting
 - cc cho toàn team. 
 
-### CustomerUpdate
-> gửi cập nhật kết quả công việc cho khách hàng
+### Customer Emails
+> thực hiện bởi thành viên phụ trách làm việc với khách hàng. 
+
+- email kết quả công việc cho khách hàng, không skype, chat, ...
 
 - 2 lần vào đầu giờ chiều (14h) thứ 2 và thứ 5 / tuần
    - đây là các khung giờ mà khách hàng có thời gian, dễ dàng xem và phản hồi
@@ -71,7 +72,7 @@
 - Các thành viên tổng hợp trên bảng điểm:
    - số lượng Update và WarmUp của mỗi thành viên
    - số lượng Meeting Notes trong tuần
-   - số lượng CustomerUpdate thực hiện trong tuần
+   - số lượng Customer Emails thực hiện trong tuần
    - số công việc `done` trong tuần / tổng sổ `done` + `in-progress`
 
 - **Chuẩn bị báo cáo cho buổi họp WIG đầu tuần sau**
