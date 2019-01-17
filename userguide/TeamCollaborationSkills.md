@@ -1,4 +1,4 @@
-# Triển khai theo 4DX (4 Nguyên tắc Thực Thi)
+# Vận dụng theo 4DX (4 Nguyên tắc Thực Thi)
 
 ## Mục tiêu chung (không phải WIG của team). 
 
