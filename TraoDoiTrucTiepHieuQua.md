@@ -1,11 +1,25 @@
+### Trao đổi
+- Trực tiếp: 
+   - nói chuyện trực tiếp giữa hai cá nhân, một nhóm
+   - video, audio conference
+   - chat, instant message giữa hai cá nhân, trong nhóm
+   - là dạng trao đổi qua lại bằng email
+- Gián tiếp: 
+   - Email thông thường
+   - gửi Văn bản
+   - comment, trao đổi trên các công cụ gitlab, github
+   - sử dụng chat để notes, không chờ người nhận trả lời
+   
 ### Trao đổi trực tiếp
 > trong nguyên tắc 3 của team [chi tiết](https://github.com/easywebhub/tasks), có phần "Hạn chế trao đổi trực tiếp không hiệu quả" 
-
 > Để trao đổi trực tiếp hiệu quả đòi hỏi 2 (hay nhiều) đối tượng tham gia trao đổi phải sẵn sàng về thời gian, địa điểm, nhất là có sự chuẩn bị về nội dung sẽ trao đổi.
 
 - Trao đổi trực tiếp có thể là trao đổi ngắn giữa hai người hoặc cũng có thể là buổi họp có nhiều đối tượng tham gia.
+- Chat giữa hai cá nhân hoặc chat nhóm, về bản chất, là Trao đổi trực tiếp.
 - Người tạo cuộc họp cần phải rõ ràng các nội dung cần trao đổi và thông báo trước cho các bên tham gia. 
 - Sự chuẩn bị của các đối tượng tham gia ảnh hưởng lớn tới hiệu quả cuộc họp.
+
+- Trao đổi gián tiếp: email, comment trên gitlab, github,...
 
 ### Nguyên tắc để trao đổi trực tiếp đạt hiệu quả
 
