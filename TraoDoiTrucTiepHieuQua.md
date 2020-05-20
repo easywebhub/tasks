@@ -3,7 +3,7 @@
    - nói chuyện trực tiếp giữa hai cá nhân, một nhóm
    - video, audio conference
    - chat, instant message giữa hai cá nhân, trong nhóm
-   - là dạng trao đổi qua lại bằng email
+   - là trao đổi qua lại ngay lập tức bằng email
 - Gián tiếp: 
    - Email thông thường
    - gửi Văn bản
