@@ -1,5 +1,5 @@
 
-### I. 5 Nguyên tắc cơ bản [Chi tiết](https://github.com/easywebhub/tasks/wiki/Nguy%C3%AAn-t%E1%BA%AFc-l%C3%A0m-vi%E1%BB%87c-c%E1%BB%A7a-EasyWeb)
+### I. 3 Nguyên tắc cơ bản [Chi tiết](https://github.com/easywebhub/tasks/wiki/Nguy%C3%AAn-t%E1%BA%AFc-l%C3%A0m-vi%E1%BB%87c-c%E1%BB%A7a-EasyWeb)
 
 1. **Trách nhiệm tạo Công Việc cho mình**
  
@@ -7,11 +7,12 @@
  
 3. **Trao đổi phải dựa trên Công Việc, hạn chế trao đổi trực tiếp (không hiệu quả) và cần lưu trữ lâu dài**
  
-4. **Yêu cầu Công Việc được chia từ trên xuống**
- 
-5. **Trạng thái Công Việc được cập nhật từ dưới lên**
+
 
 ### II. Cộng tác trong môi trường team-work [Chi tiết](/EasyWeb-Collaboration.md)
+> **Yêu cầu Công Việc được chia từ trên xuống**
+
+> **Trạng thái Công Việc được cập nhật từ dưới lên**
 
 #### 1. Vai trò đưa yêu cầu
 
